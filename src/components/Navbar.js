@@ -23,6 +23,12 @@ const Navbar = () => {
                         color: "red"
                     }}>Service</NavLink>
                 </li>
+                <li>
+                    <NavLink exact to='/posts/js/react' activeStyle={{
+                        fontWeight: "bold",
+                        color: "red"
+                    }}>Posts</NavLink>
+                </li>
             </ul>
         </nav>
     );
